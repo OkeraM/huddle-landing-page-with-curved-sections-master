@@ -1,0 +1,1378 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button_a {
+  background-color: white;
+  color: hsl(322, 100%, 66%);
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 30px;
+  padding: 8px 29px;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+h2 {
+    font-size: 75px;
+    text-align: left;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* min-width: 1440px;
+  width: 100%; */
+}
+
+/* .button_a {
+    max-width: 17vw;
+    width: 15vw;
+    background-color: white;
+    color:black;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px 1px;   /* in order: x offset, y offset, blur size, spread size, color */
+    /* border-radius: 35px;
+    cursor: pointer;
+} */
+
+/* .button_a_1 {
+    text-align: center; 
+    margin: 0 auto; 
+    max-width: 17vw;
+    width: 15vw;
+    background-color: white;
+    color:black;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    box-shadow: 1px 1px 8px 1px;   /* in order: x offset, y offset, blur size, spread size, color */
+    /* border-radius: 35px;
+    cursor: pointer;
+} */
+
+.button_a_1 {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+  outline: none;
+  border-style: none;
+  border-radius: 50px;
+  padding: 27px 100px 26px;
+}
+
+body .container_1 {
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 150px;
+}
+
+.pic_1 {
+    padding-top: 100px;
+}
+
+.container_1 p {
+    padding-bottom: 70px;
+}
+
+.container_2 .child_ p {
+    opacity: 0.5;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pic_ {
+    max-width: 100%;
+    width: 30vw;
+}
+
+.container_2 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 33vw;
+}
+
+.container_2 .child_ .icon_ {
+    float: left;    
+}
+
+.container_3 {
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.flex-box {
+    min-height: 80vh; 
+    min-width: 100vw;
+    /* box-shadow: 0px 0px 5px 0px; */
+    /* box-shadow: -2px 2px 20px 0px #0000001f; */
+    background-color: hsl(207, 100%, 98%);
+    gap: 100px;
+}
+
+.flex-box-1 {
+     margin-top: 4rem;
+     max-height: 30vh; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5rem;
+}
+
+.flex-box-2 {
+     margin-top: 1rem;
+     max-height: 30vh; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 7rem;
+     background-color: white;
+}
+
+.flex-box-3 {
+     margin-top: 1rem;
+     max-height: 30vh; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5rem;
+}
+
+.flex-box-4 {
+     margin-top: 1rem;
+     max-height: 30vh; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 5rem;
+     background-color: white;
+}
+
+.writing_5 {
+  text-align: center;
+}
+
+.flex-box-4 .writing_5 h1 {
+     padding-bottom: 75px;
+}
+
+/* .curve {
+    position: relative;
+    top: 65px;
+    color: d4f1f9;
+} */
+
+.bg-top-1 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 1550px;
+    left: 0;
+    min-width: 1440px;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .bg-block {
+    position: absolute;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+  }
+  
+  .bg-bottom-1 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 2300px;
+    left: 0;
+    min-width: 1440px; 
+    width: 100%;
+    height: 200px;
+  }
+  
+  .bg-top-2 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 2900px;
+    left: 0;
+    min-width: 1440px;
+    width: 100%;
+    height: 150px;
+  }
+  
+  .bg-bottom-2 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 3625px;
+    left: 0;
+    min-width: 1440px;
+    width: 100%;
+    height: 200px;
+  }
+
+  /* footer */
+
+  footer {
+    position: relative;
+    background-color: hsl(192, 100%, 9%);
+  }
+  
+  .footer-bg {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-footer-top-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -203px;
+    height: 203px;
+    width: 100%;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 66px 98px 100px 100px;
+  }
+  
+  /* Left ------------------------------- */
+   .left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left .logo {
+    align-self: flex-start;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%)
+      hue-rotate(306deg) brightness(103%) contrast(101%);
+    margin: 20px 0;
+  }
+  
+  .left p,
+  .right p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 5px 0 17px;
+  }
+  
+  /* Contact ------------------------------- */
+   .contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+  
+  .phone,
+  .email {
+    display: flex;
+    margin: 9px 0;
+  }
+  
+  .phone img,
+  .email img {
+    align-self: center;
+    margin-left: 2px;
+    margin-right: 18px;
+  }
+  
+  .phone span,
+  .email span {
+    font-size: 16px;
+  }
+  
+  /* SNS ------------------------------- */
+   .sns {
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+  }
+  
+  .sns a i {
+    color: white;
+    font-size: 36px;
+  }
+  
+  /* Right ------------------------------- */
+   .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+    margin-right: 2px;
+  }
+  
+  .right h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  /* Form ------------------------------- */
+   form {
+    display: flex;
+    margin-top: 6px;
+  }
+  
+  input {
+    border-style: none;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 320px;
+    height: 48px;
+    padding: 15px;
+    margin-top: 18px;
+    margin-right: 40px;
+  }
+  
+  .subscribe-btn {
+    align-self: flex-end;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 42px;
+  }
+
+  .subscribe-btn:hover {
+    opacity: 0.8;
+  }
+
+  /* mobile */
+
+  @media only screen and (max-width: 375px) {
+  
+  .bg-top-1 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-top-mobile-1.svg");
+    top: 373px;
+    left: 0;
+    min-width: initial;
+    width: 375px;
+    height: 112px;
+  }
+
+  .bg-block {
+    position: absolute;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+  }
+
+  .bg-bottom-1 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-bottom-mobile-1.svg");
+    top: 1036px;
+    min-width: initial;
+    width: 375px;
+    height: 52px;
+  }
+
+  .bg-top-2 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-top-mobile-2.svg");
+    top: 1732px;
+    min-width: initial;
+    width: 375px;
+    height: 103px;
+  }
+
+  .bg-bottom-2 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-bottom-mobile-2.svg");
+    top: 2377px;
+    min-width: initial;
+    width: 375px;
+    height: 101px;
+  }
+
+  /* footer */
+
+  .footer-bg {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-footer-top-mobile.svg");
+    top: -50px;
+    width: 375px;
+    height: 53px;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Left ------------------------------- */
+  .left {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 8px;
+    order: 2;
+  }
+
+  .left .logo {
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    margin-bottom: 20px;
+  }
+
+  /* Contact ------------------------------- */
+
+  .contact {
+    margin-bottom: 48px;
+  }
+
+  .phone,
+  .email {
+    margin: 22px 0 0;
+  }
+
+  .phone span,
+  .email span {
+    font-size: 14px;
+  }
+
+  /* SNS ------------------------------- */
+
+   .sns {
+    width: 104px;
+  }
+
+  .sns a i {
+    font-size: 26px;
+  }
+
+  /* Right ------------------------------- */
+
+  .right {
+    margin-right: 0;
+    margin-bottom: 63px;
+    padding: 20px 8px;
+    order: 1;
+  }
+
+  .right h3 {
+    font-size: 20px;
+  }
+
+  /* Form ------------------------------- */
+
+  form {
+    flex-direction: column;
+    margin-top: 7px;
+  }
+
+  input {
+    margin: 9px 0 16px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .bg-top-1 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-top-mobile-1.svg");
+    top: 373px;
+    left: 0;
+    min-width: initial;
+    width: 1200px;
+    height: 112px;
+  }
+
+  .bg-block {
+    position: absolute;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+  }
+
+  .bg-bottom-1 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-bottom-mobile-1.svg");
+    top: 1036px;
+    min-width: initial;
+    width: 375px;
+    height: 52px;
+  }
+
+  .bg-top-2 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-top-mobile-2.svg");
+    top: 1732px;
+    min-width: initial;
+    width: 375px;
+    height: 103px;
+  }
+
+  .bg-bottom-2 {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-bottom-mobile-2.svg");
+    top: 2377px;
+    min-width: initial;
+    width: 375px;
+    height: 150px;
+  }
+
+  /* footer */
+
+  .footer-bg {
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-footer-top-mobile.svg");
+    top: -50px;
+    width: 1200px;
+    height: 53px;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Left ------------------------------- */
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 8px;
+    order: 2;
+  }
+
+  .left .logo {
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .left p {
+    margin-bottom: 20px;
+  }
+
+  /* Contact ------------------------------- */
+
+  .contact {
+    margin-bottom: 48px;
+  }
+
+  .phone,
+  .email {
+    margin: 22px 0 0;
+  }
+
+  .phone span,
+  .email span {
+    font-size: 14px;
+  }
+
+  /* SNS ------------------------------- */
+
+   .sns {
+    width: 104px;
+  }
+
+  .sns a i {
+    font-size: 26px;
+  }
+
+  /* Right ------------------------------- */
+
+  .right {
+    margin-right: 0;
+    margin-bottom: 63px;
+    padding: 20px 8px;
+    order: 1;
+  }
+
+  .right h3 {
+    font-size: 20px;
+  }
+
+  /* Form ------------------------------- */
+
+  form {
+    flex-direction: column;
+    margin-top: 7px;
+  }
+
+  input {
+    margin: 9px 0 16px;
+  }
+
+}
+       
+
+
+
+/*
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-width: 1440px;
+  width: 100%;
+}
+
+/* Navigation ------------------------------- */
+/* .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 78px 43px 78px 60px;
+  }
+  
+  .logo {
+    align-self: center;
+  }
+  
+  .try-btn {
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 30px;
+    padding: 8px 29px;
+  }
+  
+  button:hover {
+    opacity: 0.6;
+  }
+  
+  /* Intro ------------------------------- */
+  /* .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+    margin: 152px auto 62px;
+    padding: 0 60px;
+  }
+  
+  h1 {
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+  }
+  
+  .intro p {
+    color: hsl(192, 100%, 9%);
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 22px 0 48px;
+  }
+  
+  p span {
+    display: block;
+  }
+  
+  .start-btn {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 8px 10px 2px rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+    outline: none;
+    border-style: none;
+    border-radius: 50px;
+    padding: 27px 100px 26px;
+  }
+  
+  .screen-img {
+    margin: 110px 0 56px;
+  }
+  
+  /* Stats ------------------------------- */
+  /* .bg-wrapper {
+    position: relative;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 978px;
+    margin: 10px auto 30px;
+    padding: 0 50px;
+  }
+  
+  .communities-stat,
+  .messages-stat {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .communities-icon {
+    width: 47px;
+    margin-top: 1px;
+    margin-left: 3px;
+  }
+  
+  .messages-icon {
+    width: 40px;
+    margin-top: 4px;
+    margin-left: 9px;
+    margin-bottom: 5px;
+  }
+  
+  strong {
+    color: hsl(192, 100%, 9%);
+    font-size: 96px;
+    line-height: 124px;
+    margin-bottom: 14px;
+  }
+  
+  .communities-stat span,
+  .messages-stat span {
+    color: hsl(324, 3%, 60%);
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0.01rem;
+  }
+  
+  .messages-stat span {
+    margin-right: 34px;
+  }
+  
+  /* Backgrounds ------------------------------- */
+  /* .bg-top-1 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 381px;
+    left: 0;
+    min-width: 1440px;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .bg-block {
+    position: absolute;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+  }
+  
+  .bg-bottom-1 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 1025px;
+    left: 0;
+    min-width: 1440px;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .bg-top-2 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-top-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 1871px;
+    left: 0;
+    min-width: 1440px;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .bg-bottom-2 {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-section-bottom-desktop-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 2494px;
+    left: 0;
+    min-width: 1440px;
+    width: 100%;
+    height: 200px;
+  }
+  
+  /* Main ------------------------------- */
+  /* .main {
+    display: flex;
+    flex-direction: column;
+    margin: 368px auto 320px;
+  }
+  
+  .wrapper {
+    background-color: hsl(207, 100%, 98%);
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 60px;
+  }
+  
+  #section-2 {
+    margin: 359px auto 292px;
+    padding: 0 58px 0 60px;
+  }
+  
+  #section-3 {
+    background-color: hsl(207, 100%, 98%);
+    width: 1320px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    color: hsl(192, 100%, 9%);
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+  }
+  
+  #section-1 h2 {
+    margin-top: 4px;
+  }
+  
+  #section-2 h2 {
+    margin-top: 6px;
+  }
+  
+  .info p {
+    color: hsl(192, 100%, 9%);
+    font-size: 16px;
+    letter-spacing: -0.005rem;
+    line-height: 24px;
+    margin: 22px 0;
+  }
+  
+  #section-3 p {
+    margin-bottom: 18px;
+  }
+  
+  .together-graphic {
+    width: 518px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .conversation-graphic {
+    width: 530px;
+    margin-left: 5px;
+    margin-bottom: 18px;
+  }
+  
+  .users-graphic {
+    width: 534px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+  }
+  
+  /* Get Started ------------------------------- */
+  /*.get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto 372px;
+    padding: 0 60px;
+  }
+  
+  .get-started .start-btn {
+    margin-top: 39px;
+  }
+  
+  /* Footer ------------------------------- */
+  /* footer {
+    position: relative;
+    background-color: hsl(192, 100%, 9%);
+  }
+  
+  .footer-bg {
+    position: absolute;
+    background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/3c5c14326bdc399d5d0bcb03568316fc0e3914cf/images/bg-footer-top-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -203px;
+    height: 203px;
+    width: 100%;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 66px 98px 100px 100px;
+  }
+  
+  /* Left ------------------------------- */
+  /* .left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left .logo {
+    align-self: flex-start;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%)
+      hue-rotate(306deg) brightness(103%) contrast(101%);
+    margin: 20px 0;
+  }
+  
+  .left p,
+  .right p {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 5px 0 17px;
+  }
+  
+  /* Contact ------------------------------- */
+  /* .contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+  }
+  
+  .phone,
+  .email {
+    display: flex;
+    margin: 9px 0;
+  }
+  
+  .phone img,
+  .email img {
+    align-self: center;
+    margin-left: 2px;
+    margin-right: 18px;
+  }
+  
+  .phone span,
+  .email span {
+    font-size: 16px;
+  }
+  
+  /* SNS ------------------------------- */
+  /* .sns {
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+  }
+  
+  .sns a i {
+    color: white;
+    font-size: 36px;
+  }
+  
+  /* Right ------------------------------- */
+  /* .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+    margin-right: 2px;
+  }
+  
+  .right h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  
+  /* Form ------------------------------- */
+  /* form {
+    display: flex;
+    margin-top: 6px;
+  }
+  
+  input {
+    border-style: none;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 320px;
+    height: 48px;
+    padding: 15px;
+    margin-top: 18px;
+    margin-right: 40px;
+  }
+  
+  .subscribe-btn {
+    align-self: flex-end;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 42px;
+  }
+  
+  @media only screen and (max-width: 375px) {
+    body {
+      min-width: 375px;
+    }
+  
+    /* Navigation ------------------------------- */
+    /* .navigation {
+      width: 375px;
+      padding: 23px 24px;
+    }
+  
+    .logo {
+      width: 98px;
+    }
+  
+    .try-btn {
+      font-size: 9px;
+      padding: 4px 18px 5px;
+    }
+  
+    /* Intro ------------------------------- */
+    /* .intro {
+      text-align: center;
+      width: 100%;
+      margin: 91px auto 62px;
+      padding: 0 26px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .intro p {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  
+    p span {
+      display: inline;
+    }
+  
+    .start-btn {
+      font-size: 12px;
+      border-radius: 50px;
+      padding: 12px 41px;
+    }
+  
+    .screen-img {
+      width: 300px;
+      margin: 100px 0 60px;
+    }
+  
+    /* Stats ------------------------------- */
+    /* .stats {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 26px;
+    }
+  
+    .communities-icon {
+      width: 30px;
+      margin: 2px 0 8px 2px;
+    }
+  
+    .messages-icon {
+      width: 23px;
+      margin-top: 4px;
+      margin-left: 6px;
+      margin-bottom: 10px;
+    }
+  
+    .communities-stat strong {
+      font-size: 61px;
+      line-height: 64px;
+      margin-bottom: 15px;
+    }
+  
+    .messages-stat strong {
+      font-size: 54px;
+      line-height: 54px;
+      margin-bottom: 15px;
+    }
+  
+    .communities-stat span {
+      font-size: 15px;
+      margin-bottom: 93px;
+    }
+  
+    .messages-stat span {
+      font-size: 13px;
+      margin-right: 20px;
+    }
+  
+    /* Backgrounds ------------------------------- */
+    /* .bg-top-1 {
+      background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-top-mobile-1.svg");
+      top: 373px;
+      left: 0;
+      min-width: initial;
+      width: 375px;
+      height: 112px;
+    }
+  
+    .bg-block {
+      position: absolute;
+      background-color: hsl(207, 100%, 98%);
+      width: 100%;
+    }
+  
+    .bg-bottom-1 {
+      background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-bottom-mobile-1.svg");
+      top: 1036px;
+      min-width: initial;
+      width: 375px;
+      height: 52px;
+    }
+  
+    .bg-top-2 {
+      background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-top-mobile-2.svg");
+      top: 1732px;
+      min-width: initial;
+      width: 375px;
+      height: 103px;
+    }
+  
+    .bg-bottom-2 {
+      background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-section-bottom-mobile-2.svg");
+      top: 2377px;
+      min-width: initial;
+      width: 375px;
+      height: 101px;
+    }
+  
+    /* Main ------------------------------- */
+    /* .main {
+      margin: 136px auto 167px;
+    }
+  
+    .wrapper {
+      padding: 82px 0 50px;
+    }
+    
+    #wrapper-2 {
+      padding: 20px 0 96px;
+    }
+    
+    .section {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      padding: 0 28px;
+    }
+  
+    #section-2 {
+      margin: 181px auto 205px;
+      padding: 0 22px;
+    }
+  
+    #section-3 {
+      width: 100%;
+    }
+  
+    .info {
+      text-align: center;
+      order: 2;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    #section-1 h2 {
+      margin-top: 4px;
+    }
+  
+    #section-2 h2 {
+      margin-top: 6px;
+    }
+  
+    .info p {
+      font-size: 14px;
+      line-height: 21px;
+      margin: 14px 0;
+    }
+  
+    #section-3 p {
+      margin-bottom: 18px;
+    }
+  
+    .section img {
+      order: 1;
+    }
+    
+    .together-graphic {
+      width: 259px;
+      margin-right: 0px;
+      margin-bottom: 72px;
+    }
+  
+    .conversation-graphic {
+      width: 266px;
+      margin-left: 0;
+      margin-bottom: 82px;
+    }
+  
+    .users-graphic {
+      width: 268px;
+      margin-right: 0;
+      margin-bottom: 82px;
+    }
+  
+    /* Get Started ------------------------------- */
+    /* .get-started {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto 300px;
+      padding: 0 60px;
+    }
+  
+    .get-started h2 {
+      font-size: 24px;
+    }
+    
+    .get-started .start-btn {
+      margin-top: 38px;
+    }
+  
+    /* Footer ------------------------------- */
+    /* .footer-bg {
+      background-image: url("https://raw.githubusercontent.com/frontendmentorio/huddle-landing-page-with-curved-sections/5ae694f7236adaa0ebbd9578d777d517b776adf6/images/bg-footer-top-mobile.svg");
+      top: -50px;
+      width: 375px;
+      height: 53px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+      padding: 20px;
+    }
+  
+    /* Left ------------------------------- */
+    /* .left {
+      display: flex;
+      flex-direction: column;
+      padding: 21px 8px;
+      order: 2;
+    }
+  
+    .left .logo {
+      width: 200px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+  
+    .left p {
+      margin-bottom: 20px;
+    }
+    /* Contact ------------------------------- */
+    /* .contact {
+      margin-bottom: 48px;
+    }
+  
+    .phone,
+    .email {
+      margin: 22px 0 0;
+    }
+  
+    .phone span,
+    .email span {
+      font-size: 14px;
+    }
+  
+    /* SNS ------------------------------- */
+    /* .sns {
+      width: 104px;
+    }
+  
+    .sns a i {
+      font-size: 26px;
+    }
+  
+    /* Right ------------------------------- */
+    /* .right {
+      margin-right: 0;
+      margin-bottom: 63px;
+      padding: 20px 8px;
+      order: 1;
+    }
+  
+    .right h3 {
+      font-size: 20px;
+    }
+  
+    /* Form ------------------------------- */
+    /* form {
+      flex-direction: column;
+      margin-top: 7px;
+    }
+  
+    input {
+      margin: 9px 0 16px;
+    }
+  }
+  
+
